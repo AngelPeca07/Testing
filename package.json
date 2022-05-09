@@ -1,0 +1,24 @@
+{
+  "name": "Challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelPeca07/Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelPeca07/Testing/issues"
+  },
+  "homepage": "https://github.com/AngelPeca07/Testing#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1"
+  }
+}
