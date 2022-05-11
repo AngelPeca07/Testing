@@ -11,7 +11,7 @@ The second challenge was to create test scenarios using all available HTTPs meth
 
 - git clone : https://github.com/AngelPeca07/Testing.git
 - npm install
-- npm start
+- npm run cypress:open
 
 ## Start Cypress 
 - npm run cypress:open 
