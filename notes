@@ -1,0 +1,7 @@
+How would you structure an Automated Testing in an Agile Team?
+
+It depends on the project, but for big projects 2 or 3 testers are necessary, 
+if the project is a bit small, one tester is enough. A tester should be 
+testing (static testing) from the beginning of the project, it is a good 
+practice to be in the early stages of the project. The tools depend on the 
+application and other factors, if the project has APIs, one of the best tools for this is Postman, or you can also automate with cypress. We need to be aware of the testing design techniques and we also need to recognize what phase of the software testing life cycle you are currently in. 
