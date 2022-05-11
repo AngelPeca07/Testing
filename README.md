@@ -17,4 +17,5 @@ The second challenge was to create test scenarios using all available HTTPs meth
 - npm run cypress:open 
 
 🚩 **Note**
-- Make sure that you are located in the correct path within your local repository, if you have any questions feel free to contact me. [Email Angel Peña ](mailto:jose.angpc@gmail.com)
+>
+> Make sure that you are located in the correct path within your local repository, if you have any questions feel free to contact me. [Email Angel Peña ](mailto:jose.angpc@gmail.com)
