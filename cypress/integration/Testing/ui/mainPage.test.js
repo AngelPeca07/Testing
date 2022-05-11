@@ -1,11 +1,14 @@
+let url = require("../../../fixtures/environment.json");
+let labels = require("../../../fixtures/labels.json");
+
 describe('This will go to the amazon page and validate random items', () => {
   beforeEach(() => {
-    cy.visit('www.amazon.com');
+    cy.visit(url.amazon);
   });
 
   it('Should open the main page', () => {
-    cy.get('#nav-logo-sprites', { timeout: 2000 }).should('be.visible');
-    cy.get('span').should('have.class', 'icp-nav-flag-us');
+    cy.get(labels.logo, { timeout: 2000 }).should('be.visible');
+    cy.get(labels.spanFlag).should('have.class', labels.flag);
   });
 
   it('Should look for products', () => {
