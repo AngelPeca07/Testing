@@ -45,10 +45,10 @@ for(let i=0; i<15; i++){
       })
     });
 
-    it('Put - update', () => {
+    it('PUT - update', () => {
       cy.request({
         method: 'PUT',
-        url: '/users/4582',
+        url: '/users/3871',
         headers: {
           'authorization': `Bearer ${TOKEN}`
         },
@@ -67,10 +67,10 @@ for(let i=0; i<15; i++){
       })
     });
 
-    it('Delete - delete user', () => {
+    it('DELETE - delete user', () => {
       cy.request({
         method: 'DELETE',
-        url: '/users/4582',
+        url: '/users/3871',
         headers: {
           'authorization': `Bearer ${TOKEN}`
         }
