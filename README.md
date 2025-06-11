@@ -1,21 +1,54 @@
-<h1 align="center">UI and Api Testing Using Cypress</h1>
- <p align="center">
- <img height="98px" src="https://www.gartner.com/imagesrv/peer-insights/vendors/logos/cypress.jpg"/>
- </p>
+<h1 align="center">UI and API Testing Using Cypress</h1>
 
-The first challenge was to create some test cases at (www.amazon.com) consult different products and create validations for their prices, colors, quantity, etc. Putting them in the cart and calculate the total price.
+<p align="center">
+  <img height="100px" src="https://raw.githubusercontent.com/cypress-io/cypress/develop/assets/cypress-logo-light.png" />
+</p>
 
-The second challenge was to create test scenarios using all available HTTPs methods in the API (GET, POST, PUT, DELETE) and Assert their output (Response Code, Response Payload content, etc). API: https://gorest.co.in/
+## 📋 Project Description
 
-## Getting Started 🚀
+This project showcases automated testing using [Cypress](https://www.cypress.io/) for both **UI (User Interface)** and **API** testing.
 
-- git clone : https://github.com/AngelPeca07/Testing.git
-- npm install
-- npm run cypress:open
+---
 
-## Start Cypress 
-- npm run cypress:open 
+### 🧪 Challenge 1: UI Testing on Amazon
 
-🚩 **Note**
->
-> Make sure that you are located in the correct path within your local repository, if you have any questions feel free to contact me. [Email Angel Peña ](mailto:jose.angpc@gmail.com)
+The first challenge was to create end-to-end tests for [Amazon](https://www.amazon.com), including:
+
+- Searching for random products (e.g., iPhones)
+- Validating:
+  - Prices
+  - Colors
+  - Visibility of elements
+  - Adding products to the cart and verifying quantity
+  - Calculating total price
+
+---
+
+### 🔌 Challenge 2: API Testing
+
+The second challenge was to create API test scenarios using [GoRest](https://gorest.co.in/) to test all available HTTP methods:
+
+- `GET`: Retrieve users
+- `POST`: Create users
+- `PUT`: Update user information
+- `DELETE`: Remove users
+
+Assertions include:
+
+- Response status codes
+- Response body content
+- Headers
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/AngelPeca07/Testing.git
+
+# Navigate to the project directory
+cd Testing
+
+# Install dependencies
+npm install
